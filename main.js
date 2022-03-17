@@ -29,6 +29,7 @@ addBtn.addEventListener("click", (e) => {
   
         if(lista===1){
             const botonBorrar = document.createElement("button");
+            botonBorrar.className = "btn-add"
             botonBorrar.textContent = "Borrar Todo";
             text.textContent="";
             empty.textContent=""
@@ -36,7 +37,7 @@ addBtn.addEventListener("click", (e) => {
             div.className="borrar"
             div.appendChild(botonBorrar);
             empty.appendChild(div)
-            empty.style.backgroundColor = "pink";
+          
 
             botonBorrar.addEventListener("click", (e) => {
             
@@ -82,8 +83,8 @@ function tacharTareaCompleta(p){
     tacharBtn.className = "btn-delete";
 
     tacharBtn.addEventListener("click", (e) => {
-    tacharBtn.style.backgroundColor="green"
-    tacharBtn.textContent = ":)";
+    tacharBtn.style.backgroundColor="#3CB371"
+    tacharBtn.textContent = "✔";
     p.className = "terminado"
    
 

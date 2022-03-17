@@ -1,16 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    background-color: rgba(233, 131, 174, 0.411);
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+    line-height: 1;
+   background: url(./img/fondo1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
     color: white;
   }
   
   h1 {
     text-align: center;
     color: darkslategrey;
+    font-family: 'Hubballi', cursive;
+    font-size: 1.4rem;
   }
   
   .container {
@@ -21,6 +25,7 @@ body {
     margin-right: auto;
     background-color: white;
     padding: 30px;
+    /*box-shadow: 0px 0px 5px 1px rgb(68, 65, 65);*/
   }
   
   .search {
@@ -31,11 +36,11 @@ body {
   
   form {
     display: flex;
+    margin-top: 30px;
   }
   
   input {
-    padding: 15px 10px;
-    outline: none;
+    padding: 12px 10px;
     width: 400px;
   }
   
@@ -54,53 +59,59 @@ body {
   }
   li {
     list-style: none;
-    background-color: lightgray;
-    border-radius: 10px;
+    background-color: #faf4ee;
     margin-top: 15px;
     display: flex;
   }
   
   li p {
     margin: 0;
-    padding: 15px;
+    padding: 12px;
     width: 100%;
+   /* box-shadow:0px 0px 5px rgb(129, 127, 127);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    font-size: 1.1rem;
+    text-transform:capitalize;
   }
   
   .btn-delete {
     margin-left: auto;
     border: none;
-    background-color: #e31746;
+    background-color: #da7b91;
     color: white;
-    font-weight: bold;
     padding: 5px 10px;
     outline: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /*border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;*/
     width: 10%;
     font-size: 1.2em;
+    /*box-shadow:0px 0px 5px rgb(129, 127, 127)*/
   }
   
   .btn-delete:hover {
     cursor: pointer;
-    background-color: lightseagreen;
+    background-color: #c56f83;
   }
   
   .btn-add {
     padding: 5px 15px;
     border: none;
     color: white;
-    font-family: fantasy;
-    background-color: teal;
-    font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
+    background-color: 	#4564BE;
+    font-size: 1.1rem;
     outline: none;
   }
   
   .btn-add:hover {
     cursor: pointer;
-    background-color: darkcyan;
+    background-color: #3d57a5
   }
   
   .empty {
     color: darkslategrey;
     text-align: center;
+    font-size: 1.2rem;
+    
   }
